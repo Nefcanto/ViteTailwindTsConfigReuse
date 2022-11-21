@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.base",
+    "compilerOptions": {
+        "paths": {
+            "Base": [
+                "src/Base/Exports"
+            ],
+            "Forms": [
+                "src/Modules/Forms/Exports"
+            ],
+            "Shared": [
+                "src/components/Shared/Exports"
+            ]
+        }
+    },
+}
